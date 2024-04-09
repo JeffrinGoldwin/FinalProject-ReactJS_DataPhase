@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: learningplatform
+    database: learningplatform
+    schema: public
+    tables:
+      - name: course
+      - name: events
+      - name: skills
+      - name: users
+      - name: acceptrejects
