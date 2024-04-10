@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: acceptedcount
+    description: This table 
+    columns:
+      - name: eventname
+        description: Name of the event
+        tests:
+          - not_null
+      - name: Accepted_count
+        description: Count of people who accepted
+      - name: Order_Priority
+        description: priority of the order
+      - name: Ord_id
+        description: Unique identifier for the order table
+        tests:
+          - unique
+          - not_null
+
